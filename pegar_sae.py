@@ -30,8 +30,8 @@ def disparar():
 
   print(">> F9 detectado. Pasate a SAE y hacé clic en 'Cantidad'...")
 
-  # Cuenta regresiva de 4 segundos con pitidos de aviso
-  for i in range(4, 0, -1):
+  # Cuenta regresiva de 3 segundos con pitidos de aviso
+  for i in range(3, 0, -1):
     winsound.Beep(1000, 150)  # Pitido corto de alerta
     print(f"Comenzando en {i}...")
     time.sleep(1)
